@@ -1,0 +1,22 @@
+{
+  "name": "dev-lancer/payment",
+  "type": "library",
+  "license": "MIT",
+  "description": "",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Jakub Gniecki",
+      "email": "kubuspl@onet.eu"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "DevLancer\\Payment\\": "src/"
+    }
+  }
+}
